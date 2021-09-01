@@ -1,4 +1,4 @@
-[10:05 a. m., 1/9/2021] Ventura: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
