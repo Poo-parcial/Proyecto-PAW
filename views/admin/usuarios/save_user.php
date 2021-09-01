@@ -1,7 +1,7 @@
 <?php
     include '../../../models/conexion.php';
 
-    $objeto = new ConexBD();
+    $objeto = new ConexionBD();
     $conexion = $objeto->get_conexion();
 
     $user = $_POST['user'];
