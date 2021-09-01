@@ -13,4 +13,4 @@ $(document).ready(function(){
             alert("cierre de secsion cancelado...");
         }
     })
-}).
+});
