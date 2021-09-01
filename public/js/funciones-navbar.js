@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".user").click(funtion(event){
+    $(".user").click(function(event){
         $("#contenido").load("usuarios/principal.php");
         event.preventDefault();
     })
