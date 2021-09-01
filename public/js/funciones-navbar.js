@@ -8,7 +8,7 @@ $(document).ready(function(){
     $(".exit-sys").click(function(){
         if(confirm("seguro/a en cerrar sesion"))
         {
-            location.herf = "../../index.php";
+            location.href = "../../index.php";
         } else {
             alert("cierre de secsion cancelado...");
         }
