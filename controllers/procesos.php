@@ -54,5 +54,22 @@
         
     }
 
+    /*Funcion para realizar un CRUD(Crear,leer,actualizar,borrar)*/
+    function CRUD($query,$tipo)
+    {
+        $consultas = new Procesos();
+        $data = $consultas->isdu($query,$tipo);
+        return $data;
+    }
+
+    /*Funcion para contar registros*/
+    function CountReg($query)
+    {
+        $consultas = new Procesos();
+        $data = $consultas->row_data($query);
+        return $data;
+    }
+
+
 
 ?>
